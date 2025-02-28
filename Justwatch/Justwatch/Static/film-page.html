@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/film-page.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header-container">
+      <header class="header">
+        <nav class="nav">
+          <div class="nav__left">
+            <a class="nav__link" href="#" onclick="return false;">
+              <img
+                class="logo"
+                src="	https://www.justwatch.com/appassets/img/logo/JustWatch-logo-large.webp"
+                alt=""
+              />
+            </a>
+            <a class="nav__link" href="#" onclick="return false;"
+              >Главная Страница</a
+            >
+            <a class="nav__link" href="#" onclick="return false;">Новинки</a>
+            <a class="nav__link" href="#" onclick="return false;">Популярное</a>
+
+            <a class="nav__link" href="#" onclick="return false;">Списки</a>
+          </div>
+          <div class="nav__right">
+            <div class="nav__search">
+              <img
+                class="nav__search--icon"
+                src="assets/icons/search.svg"
+                alt=""
+              />
+              <input
+                class="nav__input"
+                type="text"
+                placeholder="Поиск фильмов или сериалов"
+              />
+            </div>
+            <a class="nav__button-link" href="#" onclick="return false;"
+              >Войти</a>
+            <img class="nav__menu-img" src="assets/icons/menu.svg" alt="" />
+          </div>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="film-preview">
+          <div class="film-preview__left">
+            <div class="film-preview__title-container">
+                <h1 class="film-preview__title">{{Film.name}}</h1>
+              <span class="film-preview__year-container"
+                >(<span class="film-preview__year">{{Film.release_date}}</span>)</span
+              >
+            </div>
+            <p class="film-preview__subtitle">
+              Оригинальное название:
+                <span class="film-preview__title--eng">{{Film.original_name}}</span>
+            </p>
+            <ul class="film-preview__list">
+              <li class="film-preview__item">
+                <a class="film-preview__link" href="#" onclick="return false;"
+                  >Где смотреть</a
+                >
+              </li>
+              <li class="film-preview__item">
+                <a class="film-preview__link" href="#" onclick="return false;"
+                  >Описание</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="film-preview__right">
+            <img
+              src=""
+              alt=""
+            />
+          </div>
+        </section>
+        <div class="main-content">
+            <div class="buybox">
+                <h2 class="buybox__title">Смотрите прямо сейчас</h2>
+                <ul class="film-preview__list">
+                    <li class="film-preview__item">
+                        <a class="film-preview__link" href="#" onclick="return false;">Все</a>
+                    </li>
+                    <li class="film-preview__item">
+                        <a class="film-preview__link" href="#" onclick="return false;">Подписка</a>
+                    </li>
+                    <li class="film-preview__item">
+                        <a class="film-preview__link" href="#" onclick="return false;">Бесплатно</a>
+                    </li>
+                    <li class="film-preview__item">
+                        <a class="film-preview__link" href="#" onclick="return false;">Купить</a>
+                    </li>
+                </ul>
+                <ul class="offer-list offer-list--upper">
+                    {{#foreach provider in Provider}}
+                    <li class="offer-list__item">
+                        <div class="offer-list__item--left">
+                            <p style="color:white">{{provider.name}}</p>
+                            <span class="offer-list__long">{{provider.duration}} <span>min</span></span>
+                        </div>
+                        <div class="offer-list__item--right">
+                            <div class="offer-list__free-time-container">
+                                <p class="offer-list__free-time">7 дней бесплатно</p>
+                                <p class="offer-list__cost">Затем {{provider.price}}₽ / месяц</p>
+                            </div>
+                            <a class="offer-list__button offer-list__button--accent"
+                               href="">
+                                <img src="assets/icons/play-black.svg" alt="" />Смотрите
+                                прямо сейчас
+                            </a>
+                        </div>
+                    </li>
+                    {{/foreach}}
+
+                </ul>
+                <div class="buybox__banner-container">
+                    <div class="buybox__banner">
+                        <p class="buybox__banner--text">
+                            Арендуйте или купите похожие фильмы и сериалы на Apple TV!
+                        </p>
+                    </div>
+                </div>
+                <ul class="offer-list">
+                    {{#foreach provider in Provider}}
+                    <li class="offer-list__item">
+                        <div class="offer-list__item--left">
+                            <p style="color:white">{{provider.name}}</p>
+                            <span class="offer-list__long">{{provider.duration}} <span>min</span></span>
+                        </div>
+                        <div class="offer-list__item--right">
+                            <div class="offer-list__free-time-container">
+                                <p class="offer-list__free-time">7 дней бесплатно</p>
+                                <p class="offer-list__cost">Затем {{provider.price}}₽ / месяц</p>
+                            </div>
+                            <a class="offer-list__button offer-list__button--transparent"
+                               href="#"
+                               onclick="return false;">
+                                <img src="assets/icons/play-grey.svg" alt="" />Смотрите
+                                прямо сейчас
+                            </a>
+                        </div>
+                    </li>
+                    {{/foreach}}
+                </ul>
+                <div class="recommendation">
+                    <h2 class="buybox__title buybox__title--recommendation">
+                        Смотреть <span class="film-name">{{Film.name}}</span> онлайн,
+                        купить, напрокат:
+                    </h2>
+                    <p class="buybox__text">
+                        В настоящее время Вы можете посмотреть "<span class="film-name">{{Film.name}}</span>" на More TV, Kinopoisk или купить и скачать на Kinopoisk.
+                    </p>
+                </div>
+            </div>
+          <div class="film-info">
+            <div class="film-img-container">
+              <div class="film-img-container--left">
+                <h2 class="buybox__title">О фильме</h2>
+                <h3 class="film-info__header">
+                  рейтинг: <span class="film-info__rate">8.3</span>
+                </h3>
+              </div>
+
+              <img
+                class="film-info__img"
+                src="{{Film.image_url}}"
+                alt=""
+              />
+            </div>
+            <div class="film-info__btns-container">
+              <div class="film-info-like-btns">
+                <a class="film-info__btn" href="#" onclick="return false;"
+                  ><img src="assets/icons/like.svg" alt="" />10k</a
+                >
+                <a class="film-info__btn" href="#" onclick="return false;"
+                  ><img
+                    class="film-info__dislike"
+                    src="assets/icons/like.svg"
+                    alt=""
+                  />1.5k</a
+                >
+              </div>
+              <div class="film-info-like-btns">
+                <a class="film-info__btn" href="#" onclick="return false;"
+                  ><img src="assets/icons/bookmark.svg" alt="" />Избранное</a
+                >
+                <a class="film-info__btn" href="#" onclick="return false;"
+                  ><img src="assets/icons/done.svg" alt="" />Просмотрено</a
+                >
+              </div>
+            </div>
+            <div class="film-info__part">
+              <h3 class="film-info__header">Жанр</h3>
+              <p class="film-info__text">
+                  <span class="film-info__genre">{{Film.genre}}</span>
+              </p>
+            </div>
+            <div class="film-info__part">
+              <h3 class="film-info__header">Время</h3>
+              <p class="film-info__text">
+                <span class="film-info__time">1ч 59 мин</span>
+              </p>
+            </div>
+            <div class="film-info__part">
+              <h3 class="film-info__header">Возрастной рейтинг</h3>
+              <p class="film-info__text">
+                  <span class="film-info__age-limit">{{Film.age_rating}}</span>
+              </p>
+            </div>
+            <div class="film-info__part">
+              <h3 class="film-info__header">Страна производства</h3>
+              <p class="film-info__text">
+                  <span class="film-info__country">{{Film.country_of_production}}</span>
+              </p>
+            </div>
+            <div class="film-info__part">
+              <h3 class="film-info__header">Режиссер</h3>
+              <p class="film-info__text">
+                  <span class="film-info__author">{{Film.producer}}</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="description">
+          <h3 class="buybox__title">Описание</h3>
+          <p class="description__text">
+              {{Film.description}}
+          </p>
+        </div>
+        <div class="actors">
+            <h3 class="buybox__title">В ролях</h3>
+            <ul class="actors__list">
+                {{#foreach actor in Actor}}
+                <li class="actors__item">
+                    <p class="actors__name">{{actor.full_name}}</p>
+                </li>
+                {{/foreach}}
+            </ul>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-links-container">
+          <div class="footer__part">
+            <h4 class="footer__title">Топ-5 фильмов</h4>
+            <p class="footer__link">Комната по соседству</p>
+            <p class="footer__link">Чужой: Ромул</p>
+            <p class="footer__link">Ручная кладь</p>
+            <p class="footer__link">Падение империи</p>
+            <p class="footer__link">Анора</p>
+          </div>
+          <div class="footer__part">
+            <h4 class="footer__title">Топ-5 сериалов</h4>
+            <p class="footer__link">Укрытие</p>
+            <p class="footer__link">Золотая лихорадка</p>
+            <p class="footer__link">Основание: Осман</p>
+            <p class="footer__link">Звёздные Войны: Опорная Команда</p>
+            <p class="footer__link">Дюна: Пророчество</p>
+          </div>
+          <div class="footer__part">
+            <h4 class="footer__title">Топ-5 провайдеров</h4>
+            <p class="footer__link">Okko</p>
+            <p class="footer__link">Amediateka</p>
+            <p class="footer__link">Apple TV</p>
+            <p class="footer__link">Apple TV Plus</p>
+            <p class="footer__link">Google Play Movies</p>
+          </div>
+          <div class="footer__part">
+            <h4 class="footer__title">Топ-5 новинок у провайдера</h4>
+            <p class="footer__link">Что нового на Okko</p>
+            <p class="footer__link">Что нового на Amediateka</p>
+            <p class="footer__link">Что нового на Apple TV</p>
+            <p class="footer__link">Что нового на Apple TV Plus</p>
+            <p class="footer__link">Что нового на Google Play Movies</p>
+          </div>
+          <div class="footer__part">
+            <h4 class="footer__title">Следующие предстоящие фильмы</h4>
+            <p class="footer__link">Хемет, или Хозяйка не пьет чай</p>
+          </div>
+          <div class="footer__part">
+            <h4 class="footer__title">Следующие предстоящие сериалы</h4>
+            <p class="footer__link">Разделение Сезон 2</p>
+            <p class="footer__link">Prime Target Сезон 1</p>
+            <p class="footer__link">Гарлем Season 3</p>
+            <p class="footer__link">Совенок Ева Сезон 2</p>
+            <p class="footer__link">Watson Сезон 1</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

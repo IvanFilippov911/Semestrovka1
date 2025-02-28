@@ -1,0 +1,418 @@
+* {
+  font-family: Lato, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  padding-bottom: 50px;
+}
+
+.header-container {
+  max-width: 1880px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 30px 50px 16px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 1880px;
+}
+
+.header--scrolled {
+  background-color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.logo {
+  width: 219px;
+}
+
+.nav__link {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.nav__search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  width: 30vw;
+  background-color: #10161d;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.nav__input {
+  background-color: var(--background-elements-color);
+  width: 100%;
+}
+
+.nav__button-link {
+  background-color: #1c252f;
+  color: white;
+  border-radius: 4px;
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+
+.nav__button-link:hover {
+  background-color: #383d47;
+}
+
+.introduction {
+  max-width: 1880px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0)
+    ),
+    url(https://www.justwatch.com/appassets/img/home/global-home-bg-comp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.introduction__title {
+  padding-top: 160px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  width: 60%;
+  color: white;
+  text-align: center;
+}
+
+.introduction__subtitle {
+  color: var(--text-color);
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px;
+}
+
+.introduction__links-container {
+  margin: 40px 0 100px 0;
+}
+
+.introduction__transparent-link {
+  margin-left: 30px;
+}
+
+.introduction__accent-link {
+  border-radius: 8px;
+  background-color: var(--accent-color);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 40px;
+}
+
+.introduction__accent-link:hover {
+    background-color: #d9aa00;
+}
+
+.introduction__transparent-link {
+  border-radius: 8px;
+  border: 1px solid #999c9f;
+  padding: 16px 40px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+.introduction__transparent-link:hover {
+  background-color: rgba(153, 156, 159, 0.1);
+}
+
+.introduction__services-text {
+  color: #657182;
+  font-size: 17px;
+  margin: 30px 0 20px 0;
+}
+
+.services__list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.services__img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 20%;
+}
+
+.services__link {
+  background-color: var(--background-elements-color);
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #657182;
+  padding: 17px 12px;
+}
+
+.features {
+  max-width: 1880px;
+  margin: 0 auto;
+  margin-top: 125px;
+  padding: 0 130px;
+}
+
+.features__list {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: start;
+}
+
+.features__item {
+  background: linear-gradient(180deg, #11181f, rgba(17, 24, 31, 0));
+  border-radius: 16px;
+  width: 392px;
+  padding: 32px 24px 0 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.features__img {
+  height: 200px;
+  object-fit: contain;
+}
+
+.features__subtitle {
+  color: #78a6b8;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.features__title {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.features__text {
+  color: #b9bdcc;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.film-carousel {
+  max-width: 1880px;
+  margin: 0 auto;
+}
+
+.film-carousel__container {
+  margin-top: 125px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 130px;
+}
+
+.film-carousel__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 190px;
+  height: 270px;
+}
+
+.film-carousel__title {
+  font-size: 24px;
+  line-height: 1.42;
+  font-weight: 700;
+  color: #eaebee;
+}
+
+.film-carousel__text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #8a8d98;
+}
+
+.film-carousel__link {
+  color: #78a6b8;
+}
+
+.film-carousel__link:hover {
+  color: #d5d5d5;
+}
+
+.film-carousel__list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+}
+
+.film-carousel__item {
+  flex-shrink: 0;
+  height: 270px;
+  width: 190px;
+}
+
+.film-carousel__img {
+  object-fit: cover;
+}
+
+.film-carousel__list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.film-carousel__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.film-carousel__list::-webkit-scrollbar {
+  display: none;
+}
+
+.recommendation {
+  max-width: 1880px;
+  margin: 0 auto;
+}
+
+.recommendation-container {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 125px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.recommendation__img {
+  width: 68px;
+  height: 68px;
+}
+
+.recommendation__title {
+  font-size: 35px;
+  font-weight: 600;
+  color: #d5d5d5;
+  line-height: 1.42;
+}
+
+.recommendation__link {
+  margin-top: 40px;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 16px 40px;
+}
+
+.footer {
+  padding: 0 270px 0 190px;
+  max-width: 1880px;
+  margin: 0 auto;
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 14px;
+  line-height: 1.42;
+}
+
+.footer__link-list {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.footer__list-item {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.footer__link {
+  font-size: 14px;
+}
+.footer__link:hover {
+  color: white;
+}
+
+.footer__img:nth-child(1) {
+  width: 179.5px;
+  height: 40px;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__img:nth-child(2) {
+  width: 115.5px;
+  height: 40px;
+}
+
+.film-carousel__item {
+    position: relative; /* Родительский элемент для позиционирования кнопки */
+    display: inline-block; /* Чтобы элемент не занимал всю ширину */
+}
+
+.film-carousel__img {
+    display: block; /* Убираем лишние отступы вокруг изображения */
+    width: 100%; /* Изображение занимает всю ширину карточки */
+    height: auto; /* Сохраняем пропорции изображения */
+}
+
+.favorite-button {
+    position: absolute; /* Абсолютное позиционирование относительно родителя */
+    top: 10px; /* Отступ сверху */
+    right: 10px; /* Отступ справа */
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон */
+    border: none; /* Убираем границу */
+    border-radius: 50%; /* Делаем кнопку круглой */
+    width: 30px; /* Ширина кнопки */
+    height: 30px; /* Высота кнопки */
+    cursor: pointer; /* Курсор в виде указателя */
+    display: flex; /* Центрируем иконку */
+    align-items: center;
+    justify-content: center;
+    font-size: 16px; /* Размер иконки */
+    padding: 0; /* Убираем внутренние отступы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень для кнопки */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета */
+}
+
+    .favorite-button:hover {
+        background-color: rgba(255, 0, 0, 0.8); /* Изменение цвета при наведении */
+    }

@@ -1,0 +1,58 @@
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.csproj.AssemblyReference.cache
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.AssemblyInfoInputs.cache
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.AssemblyInfo.cs
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.csproj.CoreCompileInputs.cache
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\bin\Debug\net8.0\Justwatch.exe
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\bin\Debug\net8.0\Justwatch.deps.json
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\bin\Debug\net8.0\Justwatch.runtimeconfig.json
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\bin\Debug\net8.0\Justwatch.dll
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\bin\Debug\net8.0\Justwatch.pdb
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\bin\Debug\net8.0\Npgsql.dll
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.csproj.Up2Date
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.dll
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\refint\Justwatch.dll
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.pdb
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.genruntimeconfig.cache
+C:\Рабочий стол\C# PROJECTS\Justwatch\Justwatch\obj\Debug\net8.0\ref\Justwatch.dll
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Justwatch.exe
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Justwatch.deps.json
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Justwatch.runtimeconfig.json
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Justwatch.dll
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Justwatch.pdb
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Npgsql.dll
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.csproj.AssemblyReference.cache
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.AssemblyInfoInputs.cache
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.AssemblyInfo.cs
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.csproj.CoreCompileInputs.cache
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.sourcelink.json
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.csproj.Up2Date
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.dll
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\refint\Justwatch.dll
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.pdb
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\Justwatch.genruntimeconfig.cache
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\obj\Debug\net8.0\ref\Justwatch.dll
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\film-page.html
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\main-page.html
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\scripts\auth-script.js
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\scripts\header-script.js
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\scripts\modal-login-script.js
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\styles\film-page.css
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\styles\main-page.css
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\styles\reset.css
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\styles\sign-up.css
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\styles\variables.css
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\assets\icons\bookmark.svg
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\assets\icons\done.svg
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\assets\icons\like.svg
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\assets\icons\menu.svg
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\assets\icons\play-black.svg
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\assets\icons\play-grey.svg
+C:\Рабочий стол\Semestrovka1\Semestrovka1\Justwatch\Justwatch\bin\Debug\net8.0\Static\assets\icons\search.svg

@@ -1,0 +1,107 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+#modal-form-container{
+    display: none;
+    position: fixed;
+}
+
+#loginModal{
+    display: flex;
+}
+
+.close-btn {
+    right: 15px;
+    top: 15px;
+    font-size: 30px;
+    line-height: 1;
+    position: absolute;
+    color: white;
+    opacity: 70%;
+}
+
+.close-btn:hover {
+    cursor: pointer;
+}
+
+.modal-content {
+    position: relative;
+    margin: 100px auto;
+    background: #060d17;
+    border-radius: 25px;
+    padding: 25px;
+    min-width: 300px;
+}
+
+.modal-title {
+    text-align: center;
+    color: #c4c9cf;
+}
+
+.input-login {
+    padding: 16px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    background-color: #10161d;
+    color: #999c9f;
+}
+
+.form-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1
+}
+
+.submit-btn {
+    padding: 12px 20px;
+    background-color: #fbc500;
+    color: black;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align:center;
+}
+
+.submit-btn:hover {
+    background-color: #b68f01;
+    cursor: pointer;
+}
+
+.submit-btn:active {
+  background-color: #b68f01;
+}
+
+.transparent-btn:hover {
+    background-color: rgba(153, 156, 159, 0.1);
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.transparent-btn {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #999c9f;
+    padding: 16px 40px;
+    color: #999c9f;
+    font-weight: 600;
+    margin-top: 30px;
+}

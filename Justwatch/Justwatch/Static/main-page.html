@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/main-page.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="styles/sign-up.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-container">
+        <header class="header">
+            <nav class="nav">
+                <div class="nav__left">
+                    <a class="nav__link" href="">
+                        <img class="logo"
+                             src="	https://www.justwatch.com/appassets/img/logo/JustWatch-logo-large.webp"
+                             alt="" />
+                    </a>
+                </div>
+                <div class="nav__right">
+                    <a class="nav__link" href="">Новинки</a>
+                    <a class="nav__link" href="">Популярное</a>
+                    <div class="nav__search">
+                        <img class="nav__search--icon"
+                             src="assets/icons/search.svg"
+                             alt="" />
+                        <input class="nav__input"
+                               type="text"
+                               placeholder="Поиск фильмов или сериалов" />
+                    </div>
+                    {{enter}}
+                   
+
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div id="modal-form-container">
+        <!-- Модальное окно входа -->
+        <div id="loginModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h1 class="modal-title">Войти</h1>
+                <div class="form-container">
+                    <form class="form-auth" id="loginForm">
+                        <input class="input-login"
+                               type="text"
+                               name="email-login"
+                               placeholder="Введите логин"
+                               required />
+
+                        <input class="input-login"
+                               type="password"
+                               name="password"
+                               id="password-login"
+                               placeholder="Введите пароль"
+                               required />
+
+                        <div class="submit-btn" id="login-submit">Войти</div>
+                    </form>
+                    <p id="login-error-message" style="color: red; display: none;"></p>
+                    <button class="transparent-btn" id="openRegisterBtn">
+                        Регистрация
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Модальное окно регистрации -->
+        <div id="registerModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h1 class="modal-title">Регистрация</h1>
+                <div class="form-container">
+                    <form class="form-auth" id="registerForm">
+                        <input class="input-login"
+                               type="email"
+                               name="email"
+                               required
+                               placeholder="example@mail.com" />
+                        <input class="input-login"
+                               name="name"
+                               required
+                               placeholder="Введите ваше имя" />
+                        <input class="input-login"
+                               type="text"
+                               name="birthDate"
+                               required
+                               placeholder="гггг-мм-дд" />
+                        <input class="input-login"
+                               type="password"
+                               name="password"
+                               id="password-register"
+                               required
+                               placeholder="Придумайте пароль" />
+                        <input class="input-login"
+                               type="password"
+                               id="confirmPassword"
+                               name="confirmPassword"
+                               required
+                               placeholder="Повторите пароль" />
+                        <div class="submit-btn" id="register-submit">Зарегистрироваться</div>
+                    </form>
+                    <p id="register-error-message" style="color: red; display: none;"></p>
+                    <button class="transparent-btn" id="openLoginBtn">
+                        Войти
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <section class="introduction">
+            <h1 class="introduction__title">
+                Ваш гид в мире стриминга <br />
+                фильмов, сериалов и<br />
+                спортивных состязаний
+            </h1>
+            <p class="introduction__subtitle">
+                Узнайте, где можно посмотреть новые, популярные и ожидаемые
+                развлекательные стримы с помощью JustWatch.
+            </p>
+            <div class="introduction__links-container">
+                <a class="introduction__accent-link" href="#films">Откройте для себя фильмы и сериалы</a>
+                <a class="introduction__transparent-link" href="">Поддержка</a>
+            </div>
+
+            <p class="introduction__services-text">
+                Стриминговые сервисы на JustWatch
+            </p>
+            <div class="services">
+                <ul class="services__list">
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="	https://images.justwatch.com/icon/3701663/s100/okko.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="https://images.justwatch.com/icon/3701911/s100/amediateka.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="	https://images.justwatch.com/icon/190848813/s100/itunes.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="https://images.justwatch.com/icon/152862153/s100/appletvplus.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="https://images.justwatch.com/icon/169478387/s100/play.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="https://images.justwatch.com/icon/164970114/s100/mubi.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="https://images.justwatch.com/icon/164970114/s100/mubi.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="https://images.justwatch.com/icon/3689216/s100/rambler.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="	https://images.justwatch.com/icon/70189310/s100/youtubered.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="https://images.justwatch.com/icon/48600036/s100/curiositystream.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="https://images.justwatch.com/icon/240831409/s100/spamflix.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="	https://images.justwatch.com/icon/208148387/s100/docsville.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <img class="services__img"
+                             src="https://images.justwatch.com/icon/243229654/s100/wowpresentsplus.avif"
+                             alt="" />
+                    </li>
+                    <li class="services__item">
+                        <a class="services__link" href="">Смотреть все</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="features">
+            <ul class="features__list">
+                <li class="features__item">
+                    <img class="features__img"
+                         src="	https://www.justwatch.com/appassets/img/home/all_in_one_place-comp.png"
+                         alt="" />
+                    <p class="features__subtitle">ВСЕ В ОДНОМ МЕСТЕ</p>
+                    <h2 class="features__title">
+                        Ваш гид по стриминговым <br />
+                        сервисам
+                    </h2>
+                    <p class="features__text">
+                        Получайте персональные рекомендации для всех своих любимых
+                        стриминговых сервисов. Мы расскажем вам, где можно посмотреть
+                        фильмы, сериалы и спортивные состязания.
+                    </p>
+                </li>
+                <li class="features__item">
+                    <img class="features__img"
+                         src="	https://www.justwatch.com/appassets/img/home/one_search-comp-2.png"
+                         alt="" />
+                    <p class="features__subtitle">ЕДИНЫЙ ПОИСК</p>
+                    <h2 class="features__title">
+                        Единый поиск для всех <br />
+                        платформ
+                    </h2>
+                    <p class="features__text">
+                        Не надо переключаться между стриминговыми сервисами, чтобы узнать,
+                        есть ли на них фильм или сериал. К вашим <br />
+                        услугам — единый поиск.
+                    </p>
+                </li>
+                <li class="features__item">
+                    <img class="features__img"
+                         src="https://www.justwatch.com/appassets/img/home/one_watchlist-comp.png"
+                         alt="" />
+                    <p class="features__subtitle">ЕДИНЫЙ СПИСОК ДЛЯ ПРОСМОТРА</p>
+                    <h2 class="features__title">
+                        Объедините все свои списки <br />для просмотра
+                    </h2>
+                    <p class="features__text">
+                        Создайте единый список всех фильмов и сериалов, которые вы хотите
+                        посмотреть, объединяющий все стриминговые сервисы, доступный на
+                        всех ваших устройствах.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section id="films" class="film-carousel">
+            <div class="film-carousel__container">
+                <div class="film-carousel__info">
+                    <h2 class="film-carousel__title">Популярные фильмы</h2>
+                    <p class="film-carousel__text">
+                        Откройте для себя самые популярные фильмы прямо сейчас и узнайте,
+                        где их можно посмотреть.
+                    </p>
+                    <a class="film-carousel__link" href="">
+                        Посмотреть все популярные фильмы
+                    </a>
+                </div>
+                <ul class="film-carousel__list">
+                    {{#foreach film in films}}
+                    <a href="film?FilmId={{film.film_id}}"
+                    <li class="film-carousel__item">
+                        <img class="film-carousel__img"
+                             src="{{film.image_url}}"
+                             alt="{{film.name}}" />
+                        {{auth}}
+                    </li>
+                    </a>
+                    {{/foreach}}
+                </ul>
+            </div>
+        </section>
+        <section class="film-carousel">
+            <div class="film-carousel__container">
+                <div class="film-carousel__info">
+                    <h2 class="film-carousel__title">Популярные сериалы</h2>
+                    <p class="film-carousel__text">
+                        Откройте для себя самые популярные телесериалы прямо сейчас и
+                        узнайте, где можно их посмотреть онлайн.
+                    </p>
+                    <a class="film-carousel__link" href="">
+                        Посмотреть все популярные сериалы
+                    </a>
+                </div>
+                <ul class="film-carousel__list">
+                    {{#foreach film in films}}
+                    <a href="film?FilmId={{film.film_id}}"
+                    <li class="film-carousel__item">
+                        <img class="film-carousel__img"
+                             src="{{film.image_url}}"
+                             alt="{{film.name}}" />
+                        {{auth}}
+                    </li>
+                    </a>
+                    {{/foreach}}
+                </ul>
+            </div>
+        </section>
+        <section class="recommendation">
+            <div class="recommendation-container">
+                <img class="recommendation__img"
+                     src="https://www.justwatch.com/appassets/img/home/logo.svg"
+                     alt="" />
+                <h2 class="recommendation__title">
+                    Откройте для себя лучшие фильмы и сериалы на своих любимых
+                    стриминговых сервисах.
+                </h2>
+                <a class="recommendation__link" href="">Откройте для себя фильмы и сериалы</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__left">
+            <p class="footer__text">
+                © 2025 JustWatch - Поисковая Система Стриминга - Весь внешний контент
+                является собственностью законного <br />
+                правообладателя.
+            </p>
+            <ul class="footer__link-list">
+                <li class="footer__list-item">
+                    <a class="footer__link" href="">Правовая информация</a>
+                </li>
+                <li class="footer__list-item">
+                    <span>·</span>
+                </li>
+                <li class="footer__list-item">
+                    <a class="footer__link" href="">Политика конфиденциальности</a>
+                </li>
+                <li class="footer__list-item">
+                    <span>·</span>
+                </li>
+                <li class="footer__list-item">
+                    <a class="footer__link" href="">Вакансии</a>
+                </li>
+                <li class="footer__list-item">
+                    <span>·</span>
+                </li>
+                <li class="footer__list-item">
+                    <a class="footer__link" href="">Consent Management</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__right">
+            <img class="footer__img"
+                 src="https://www.justwatch.com/appassets/img/home/european-union.png"
+                 alt="" />
+            <img class="footer__img"
+                 src="	https://www.justwatch.com/appassets/img/home/logo-media.png"
+                 alt="" />
+        </div>
+    </footer>
+    <script src="scripts/header-script.js"></script>
+    <script src="scripts/modal-login-script.js"></script>
+    <script src="scripts/auth-script.js"></script>
+    <!--<script src="scripts/login-form-script.js"></script>
+    <script src="scripts/register-form-script.js"></script>-->
+</body>
+</html>

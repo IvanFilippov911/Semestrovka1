@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|c:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\semestrovka1\\semestrovka1\\justwatch\\justwatch\\justwatch.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|solutionrelative:justwatch\\justwatch.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|c:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\semestrovka1\\semestrovka1\\justwatch\\justwatch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|solutionrelative:justwatch\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|c:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\semestrovka1\\semestrovka1\\justwatch\\justwatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|solutionrelative:justwatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|c:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\semestrovka1\\semestrovka1\\justwatch\\justwatch\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|solutionrelative:justwatch\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|c:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\semestrovka1\\semestrovka1\\justwatch\\justwatch\\core\\config\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|solutionrelative:justwatch\\core\\config\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|c:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\semestrovka1\\semestrovka1\\justwatch\\justwatch\\static\\film-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|solutionrelative:justwatch\\static\\film-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|c:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\semestrovka1\\semestrovka1\\justwatch\\justwatch\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|solutionrelative:justwatch\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|c:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\semestrovka1\\semestrovka1\\justwatch\\justwatch\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|solutionrelative:justwatch\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|c:\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\semestrovka1\\semestrovka1\\justwatch\\justwatch\\services\\templaterenderingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B15731B-3B1E-47CB-956C-A96D577C2FB0}|Justwatch\\Justwatch.csproj|solutionrelative:justwatch\\services\\templaterenderingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Justwatch",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Justwatch.csproj",
+              "RelativeDocumentMoniker": "Justwatch\\Justwatch.csproj",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Justwatch.csproj",
+              "RelativeToolTip": "Justwatch\\Justwatch.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-28T23:18:20.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Justwatch\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Justwatch\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T23:17:27.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "config.json",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\config.json",
+              "RelativeDocumentMoniker": "Justwatch\\config.json",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\config.json",
+              "RelativeToolTip": "Justwatch\\config.json",
+              "ViewState": "AgIAAAAAAAAAMzMzMzP7vxEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-28T23:00:31.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Program.cs",
+              "RelativeDocumentMoniker": "Justwatch\\Program.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Program.cs",
+              "RelativeToolTip": "Justwatch\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T23:07:13.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Core\\Config\\AppConfig.cs",
+              "RelativeDocumentMoniker": "Justwatch\\Core\\Config\\AppConfig.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Core\\Config\\AppConfig.cs",
+              "RelativeToolTip": "Justwatch\\Core\\Config\\AppConfig.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwC0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T23:00:25.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Models\\Film.cs",
+              "RelativeDocumentMoniker": "Justwatch\\Models\\Film.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Models\\Film.cs",
+              "RelativeToolTip": "Justwatch\\Models\\Film.cs",
+              "ViewState": "AgIAAAcAAABAZmZmZiYwwB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T21:40:14.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "film-page.html",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Static\\film-page.html",
+              "RelativeDocumentMoniker": "Justwatch\\Static\\film-page.html",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Static\\film-page.html",
+              "RelativeToolTip": "Justwatch\\Static\\film-page.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-28T21:16:08.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TemplateRenderingService.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Services\\TemplateRenderingService.cs",
+              "RelativeDocumentMoniker": "Justwatch\\Services\\TemplateRenderingService.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Services\\TemplateRenderingService.cs",
+              "RelativeToolTip": "Justwatch\\Services\\TemplateRenderingService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T21:09:18.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Justwatch\\Services\\DatabaseService.cs",
+              "ToolTip": "C:\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Semestrovka1\\Semestrovka1\\Justwatch\\Justwatch\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "Justwatch\\Services\\DatabaseService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T21:04:08.768Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
